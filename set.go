@@ -50,6 +50,7 @@ var (
 	TypeInetProto   = SetDatatype{Name: "inet_proto", Bytes: 1, nftMagic: 12}
 	TypeInetService = SetDatatype{Name: "inet_service", Bytes: 2, nftMagic: 13}
 	TypeMark        = SetDatatype{Name: "mark", Bytes: 4, nftMagic: 19}
+	TypeIfindex     = SetDatatype{Name: "ifindex", Bytes: 4, nftMagic: 20}
 
 	nftDatatypes = []SetDatatype{
 		TypeVerdict,
@@ -60,6 +61,7 @@ var (
 		TypeInetProto,
 		TypeInetService,
 		TypeMark,
+		TypeIfindex,
 	}
 )
 
